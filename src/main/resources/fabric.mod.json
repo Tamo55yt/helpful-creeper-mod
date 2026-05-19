@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "helpful_creeper",
+  "version": "${version}",
+  "name": "Helpful Creeper",
+  "description": "Creeper patlamalarını geri alabilmenizi sağlayan bir mod.",
+  "authors": ["tamo55"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/helpful_creeper/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.tamo55.helpful_creeper.client.Helpful_creeperDataGenerator"
+    ],
+    "client": [
+      "com.tamo55.helpful_creeper.client.Helpful_creeperClient"
+    ],
+    "main": [
+      "com.tamo55.helpful_creeper.Helpful_creeper"
+    ]
+  },
+  "mixins": [
+    "helpful_creeper.mixins.json",
+    {
+      "config": "helpful_creeper.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

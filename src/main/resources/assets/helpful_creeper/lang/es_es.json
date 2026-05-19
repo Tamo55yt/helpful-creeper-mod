@@ -1,0 +1,6 @@
+{
+  "gui.helpful_creeper.title": "¡Explosión de Creeper!",
+  "gui.helpful_creeper.question": "¿Se debe restaurar el área explotada?",
+  "gui.helpful_creeper.yes": "Sí, por favor",
+  "gui.helpful_creeper.no": "No, gracias"
+}

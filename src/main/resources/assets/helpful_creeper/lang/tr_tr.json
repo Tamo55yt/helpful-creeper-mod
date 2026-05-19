@@ -1,0 +1,6 @@
+{
+  "gui.helpful_creeper.title": "Creeper Patlaması!",
+  "gui.helpful_creeper.question": "Patlama hasarını geri almak istiyor musun?",
+  "gui.helpful_creeper.yes": "Evet, geri al",
+  "gui.helpful_creeper.no": "Hayır, kalsın"
+}

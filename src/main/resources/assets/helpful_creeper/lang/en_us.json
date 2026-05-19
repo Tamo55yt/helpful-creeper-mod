@@ -1,0 +1,6 @@
+{
+  "gui.helpful_creeper.title": "Creeper Explosion!",
+  "gui.helpful_creeper.question": "Should the exploded area be restored?",
+  "gui.helpful_creeper.yes": "Yes, Please",
+  "gui.helpful_creeper.no": "No, Thanks"
+}
